@@ -13,3 +13,7 @@ jobs:
     - name: Check Terraform Version
       id: terraform-version
       run: terraform --version
+    - name: Init Terraform
+      id: terraform-init
+      run: terraform init
+    
