@@ -5,9 +5,22 @@ variable "project_id" {
 }
 
 variable "project_region" {
-    type = string
-    default = "us-central1"
-    description = "Project default region where we will be deploying resources."
+  type        = string
+  default     = "us-central1"
+  description = "Project default region where we will be deploying resources."
 }
+
+variable "location" {
+  type        = string
+  default     = ""
+  description = "Zone in which we need to place our sresources."
+}
+
+variable "cluster_name" {
+  type        = string
+  default     = "argo-cluster"
+  description = "Argo CD cluster for testing purpose."
+}
+
 
 
