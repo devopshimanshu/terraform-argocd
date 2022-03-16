@@ -12,7 +12,7 @@ variable "project_region" {
 
 variable "location" {
   type        = string
-  default     = ""
+  default     = "us-central1-f"
   description = "Zone in which we need to place our sresources."
 }
 
