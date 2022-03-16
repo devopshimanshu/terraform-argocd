@@ -19,7 +19,7 @@ variable "location" {
 variable "cluster_name" {
   type        = string
   default     = "argo-cluster"
-  description = "Argo CD cluster for testing purpose."
+  description = "Argo CD cluster for testing purpose. "
 }
 
 
