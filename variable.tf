@@ -13,7 +13,7 @@ variable "project_region" {
 variable "location" {
   type        = string
   default     = "us-central1-f"
-  description = "Zone in which we need to place our sresources."
+  description = "Zone in which we need to place our sresources. "
 }
 
 variable "cluster_name" {
