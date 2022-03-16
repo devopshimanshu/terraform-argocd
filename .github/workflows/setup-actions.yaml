@@ -15,7 +15,7 @@ jobs:
       run: terraform --version
     - name: Execute Terraform
       id: terraform-exec
-      run: terraform init && terraform plan
+      run: terraform init && terraform apply -auto-approve
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
     
