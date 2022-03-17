@@ -1,6 +1,6 @@
 # This file define workflow for github actions.
 # Terraform will be applied through github Actions
-name: Create Kubernetes Cluster and Install Argo CD
+name: Create Kubernetes Cluster and Install Argo-CD
 on: push
 jobs:
   deploy-terraform:
